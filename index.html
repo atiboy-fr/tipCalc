@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tip.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <h2 class="head-arrange">SPLI</h2>
+    <h2 class="head-arrange">TTER</h2>
+  </header>
+
+  <main>
+    <div class="first-sec">
+      <p>Bill</p>
+      <div class="bill-container">
+        <input type="text" name="dollar-sign" id="dollar-sign" placeholder="$" disabled>
+        <input type="text" name="bill-value" id="bill-value" placeholder="0">
+      </div>
+      <p class="push">Select Tip %</p>
+      <div class="tip-percent">
+        <button id="tip1">5 %</button>
+        <button id="tip2">10 %</button>
+        <button id="tip3">15 %</button>
+        <button id="tip4">20 %</button>
+        <button id="tip5">25 %</button>
+        <input type="text" name="custom" id="custom" placeholder="Custom">
+      </div>
+      <p class="push">Number of people</p>
+      <div class="bill-container">
+        <div class="align-icon"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="16"><path fill="#9EBBBD" d="M9.573 7.729c.406 0 .784.07 1.126.209.342.14.639.33.881.569.232.227.438.503.614.82a5.1 5.1 0 01.407.949c.097.312.178.654.242 1.016.062.359.105.699.126 1.011.02.307.031.624.031.945 0 .836-.259 1.512-.768 2.01-.504.492-1.17.742-1.98.742H2.748c-.81 0-1.477-.25-1.98-.742C.259 14.76 0 14.084 0 13.248c0-.322.01-.64.032-.945.02-.312.063-.652.126-1.01.063-.363.144-.705.242-1.017.1-.323.238-.643.407-.948.176-.318.382-.594.613-.821.243-.238.54-.43.882-.57.342-.138.72-.208 1.125-.208.16 0 .313.067.61.265.183.123.397.264.636.421.204.134.48.259.822.372.333.11.671.167 1.005.167a3.19 3.19 0 001.006-.167c.341-.113.618-.238.822-.372l.636-.42c.296-.2.45-.266.61-.266zM6.598 0C7.63 0 8.522.38 9.252 1.129s1.1 1.666 1.1 2.724c0 1.06-.37 1.976-1.1 2.725-.73.75-1.623 1.13-2.654 1.13-1.03 0-1.924-.38-2.653-1.13-.73-.749-1.1-1.666-1.1-2.725 0-1.058.37-1.975 1.1-2.724C4.675.379 5.567 0 6.598 0z"/></svg></div>
+        <input type="text" name="num-people" id="num-people" placeholder="0">
+        
+      </div>
+      
+    </div>
+
+    <div class="second-sec">
+      <div class="space">
+      <h3>Tip Amount</h3>
+      <h2>$<span class="individual">0.00</span></h2>
+    </div>
+    <p>/person</p>
+
+    <div class="space">
+      <h3>Total</h3>
+      <h2>$<span class="total">0.00</span></h2>
+    </div>
+    <p>/person</p>
+
+    <button type="reset" id="reset">Reset</button>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="tip.js"></script>
+</body>
+</html>
